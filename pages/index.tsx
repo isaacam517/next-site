@@ -11,7 +11,7 @@ function Home({posts}: InferGetStaticPropsType<typeof getStaticProps>) {
   return (
     <>
       <Head>
-        <title>Vitoriando</title>
+        <title>Vitoriando - Vagas & Notícias</title>
       </Head>
       <main>
         <Navigation/>
