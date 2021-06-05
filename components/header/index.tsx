@@ -4,7 +4,7 @@ export default function Header() {
     return (
         <header className={styles.container}>
             <h1 className={styles.title}>
-                Welcome to Next.js!
+                Vagas Vitória - PE
             </h1>
         </header>
     )
