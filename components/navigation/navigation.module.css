@@ -7,7 +7,7 @@
 .list > * + * {
     margin-left: 1rem;
 }
-
+/* 
 .navAnchor {
     text-decoration: underline 2px;
 }
@@ -15,4 +15,4 @@
 .navAnchor:hover,
 .navAnchor:focus {
     text-decoration: underline dotted 2px;
-}
+} */

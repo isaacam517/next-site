@@ -11,12 +11,12 @@ const Assistente = () => (
         <article>
             <h2>Assistente de Engenharia – Vitória de Santo Antão – PE</h2>
             <p><strong>Atribuições:</strong><br></br>
-            Trabalho em equipe, acompanhar instalações;<br />
-            Garantir a limpeza do local de trabalho;<br />
-            Cumprimento de cronograma de obra e seguir os projetos;<br />
-            Verificar a necessidade de material;<br />
-            Reportar problemas de campo ao coordenador;<br />
-            Acompanhamento dos serviços em execução e identificar possíveis empecilhos entre outros. <br />
+                Trabalho em equipe, acompanhar instalações;<br />
+                Garantir a limpeza do local de trabalho;<br />
+                Cumprimento de cronograma de obra e seguir os projetos;<br />
+                Verificar a necessidade de material;<br />
+                Reportar problemas de campo ao coordenador;<br />
+                Acompanhamento dos serviços em execução e identificar possíveis empecilhos entre outros. <br />
             </p>
             <p>
                 <strong>Requisitos:</strong><br></br>
