@@ -75,7 +75,7 @@ const Example = (props) => {
         src={item.src} 
         alt={item.altText}
         width='100%' />
-            <CarouselCaption className="text-danger" captionText={item.caption} captionHeader={item.caption}/>
+            {/* <CarouselCaption className="text-danger" captionText={item.caption} captionHeader={item.caption}/> */}
         </CarouselItem>
     );
   });

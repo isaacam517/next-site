@@ -43,7 +43,7 @@ export default function Navigation () {
                             <NavLink><Link href='/redes-sociais' >Redes Sociais</Link></NavLink>
                         </NavItem>
                     </Nav>
-                    <NavbarText>Simple Text</NavbarText>
+                    {/* <NavbarText>Simple Text</NavbarText> */}
                 </Collapse>
             </Navbar>
         </>
