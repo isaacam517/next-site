@@ -4,10 +4,11 @@ import Link from 'next/link'
 import { getPostList } from '../shared/util'
 import Header from '../components/header'
 import Navigation from '../components/navigation'
+import Carousel from '../components/carousel'
+import Footer from '../components/footer'
 
-type PostList = string[]
-
-function Home({posts}: InferGetStaticPropsType<typeof getStaticProps>) {
+function Home() {
+ 
   return (
     <>
       <Head>
@@ -16,32 +17,15 @@ function Home({posts}: InferGetStaticPropsType<typeof getStaticProps>) {
       <main>
         <Navigation/>
         <Header/>
-        {posts.length > 0 && (
-          <ul>
-            {posts.map((slug) => (
-              <li className="list" key={slug}>
-                <Link href={`post/${slug}`}>
-                  <a>
-                    {slug.replace(/-/g, ' ')}
-                  </a>
-                </Link>
-              </li>
-            ))}
-          </ul>
-        )}
+        <Carousel/>
+      
       </main>
+      <div className='mt-3'> 
+      <Footer/>
+
+      </div>
     </>
   )
-}
-
-export const getStaticProps = async () => {
-  const posts:PostList = getPostList()
-
-  return {
-    props: {
-      posts
-    }
-  }
 }
 
 export default Home
