@@ -10,3 +10,7 @@
     color: #FFF;
     bottom: 0;
 }
+.footerComponent p span {
+    color: red;
+}
+

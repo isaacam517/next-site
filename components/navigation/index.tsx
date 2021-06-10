@@ -23,25 +23,27 @@ export default function Navigation () {
     return (
         <>
             <Navbar color="dark" dark expand="md" className='px-2'>
-                <NavbarBrand href="/">VITORIANDO</NavbarBrand>
+                <NavbarBrand href="/" className="text-center">
+                    <img className="imgLogo" width="8%" src="/logo3.png" alt="Foto da antiga cidade Santo Antão da Mata" />
+                    <span>VITORIANDO</span></NavbarBrand>
                 <NavbarToggler onClick={toggle} />
                 <Collapse isOpen={isOpen} navbar>
                     <Nav className="mr-auto" navbar>
                         <NavItem>
                             <NavLink><Link href='/' >Inicio</Link></NavLink>
                         </NavItem>
-                        <NavItem>
+                        {/* <NavItem>
                             <NavLink><Link href='/sobre-mim' >Sobre Mim</Link></NavLink>
-                        </NavItem>
+                        </NavItem> */}
                         <NavItem>
                             <NavLink><Link href='/historia' >História</Link></NavLink>
                         </NavItem>
                         <NavItem>
                             <NavLink><Link href='/noticias' >Notícias</Link></NavLink>
                         </NavItem>
-                        <NavItem>
+                        {/* <NavItem>
                             <NavLink><Link href='/redes-sociais' >Redes Sociais</Link></NavLink>
-                        </NavItem>
+                        </NavItem> */}
                     </Nav>
                     {/* <NavbarText>Simple Text</NavbarText> */}
                 </Collapse>

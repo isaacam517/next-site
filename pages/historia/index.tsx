@@ -8,7 +8,7 @@ import FooterComponent from '../../components/footer';
 const Historia = () => (
     <>
         <Head>
-            <title>Vitória de Santo Antão :: História da cidade.</title>
+            <title>História da cidade.</title>
             <meta property="og:title" content="Vitória de Santo Antão :: História da cidade." />
             <meta name="description" content="Conheça um pouco da cidade da Vitória de Santo Antão e sua linda História"></meta>
         </Head>

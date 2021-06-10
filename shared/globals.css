@@ -20,6 +20,10 @@ a {
   box-sizing: border-box;
 }
 
+.imgLogo {
+  margin-right: 10px;
+}
+
 .div-button {
   margin: 3%;
 }

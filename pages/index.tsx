@@ -12,12 +12,17 @@ function Home() {
   return (
     <>
       <Head>
-        <title>Vitoriando - Vagas & Notícias</title>
+        <title>Vitoriando</title>
+        <meta property="og:title" content="Vitória de Santo Antão :: Curiosidades e Cia." />
+        <meta name="description" content="Curiosidades sobre tudo, notícias, entretenimento, resenhas e absurdos."></meta>
+        <meta property="og:image" content="/img/capaLink.jpg" />
       </Head>
+
       <main>
-        <Navigation/>
-        <Header/>
-        <Carousel/>
+          <Navigation/>
+
+          <Header/>
+          <Carousel/>
       
       </main>
       <div className='mt-3'> 
