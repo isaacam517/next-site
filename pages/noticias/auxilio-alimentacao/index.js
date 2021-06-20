@@ -18,7 +18,7 @@ export default function Noticias() {
             <Container>
                 <article className='text-center'>
                         <h2 className='display-4'>
-                            Servidores do município Vitória de Santo Antão recebem o auxílio-alimentação
+                            Servidores da Câmara Municipal de Vitória de Santo Antão recebem o auxílio-alimentação
                         </h2>
                         <Image
                             src="/noticias/foto-da-camara.PNG" // Route of the image file
@@ -26,7 +26,6 @@ export default function Noticias() {
                             width={420} // Desired size with correct aspect ratio
                             alt="Foto da camara Municipal da cidade"
                         />
-
                         <div className="my-3 text-center">
                             <p>
                                 O Prefeito Paulo Roberto Leite de Arruda, no uso das atribuições que lhes são conferidas por lei,
