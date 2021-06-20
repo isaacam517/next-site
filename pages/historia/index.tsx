@@ -4,13 +4,13 @@ import React from 'react';
 import { Container, Row, Col, Card, CardImg, CardText } from 'reactstrap';
 import FooterComponent from '../../components/footer';
 
-
 const Historia = () => (
     <>
         <Head>
             <title>História da cidade.</title>
             <meta property="og:title" content="Vitória de Santo Antão :: História da cidade." />
             <meta name="description" content="Conheça um pouco da cidade da Vitória de Santo Antão e sua linda História"></meta>
+            <script data-ad-client="ca-pub-3808193959835271" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
         </Head>
        
         <article>

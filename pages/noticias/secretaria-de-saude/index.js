@@ -12,6 +12,7 @@ export default function IncentivoNaSaude() {
                 <meta property="og:title" content="Foi sancionada Lei de incentivo financeiro a servidores da Secretaria da Saúde" />
                 <meta name="description" content="As metas serão elaboradas pela Secretaria da Saúde em portaria específica."></meta>
                 <meta property="og:image" content="/assets/paulo-roberto.png" />
+                <script data-ad-client="ca-pub-3808193959835271" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
             </Head>
             <Navigation />
             <Container>
