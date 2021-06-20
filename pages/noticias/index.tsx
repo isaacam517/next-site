@@ -1,7 +1,6 @@
 import Head from 'next/head'
 import MainCards from '../../components/mainCards';
 import Footer from '../../components/footer';
-
 import Navigation from "../../components/navigation";
 
 export default function Noticias() {
@@ -18,7 +17,6 @@ export default function Noticias() {
                         Notícias
                     </h2>
                     <MainCards />
-
             </article>
             <Footer/>
         </>

@@ -16,13 +16,11 @@ function Home() {
         <meta property="og:image" content="/img/capaLink.jpg" />
       </Head>
 
-      <main>
         <Navigation/>
         <Header/>
         {/* <Carousel/> */}
         <h2 className='text-center display-2' >Ultimas Notícias</h2>
         <MainCards />
-      </main>
       <div className='mt-3'> 
         <Footer/>
       </div>
