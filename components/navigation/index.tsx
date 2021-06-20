@@ -25,34 +25,39 @@ export default function Navigation () {
     return (
         <>
             <Navbar color="dark" dark expand="md" className='px-2'>
-                <NavbarBrand href="/" className="text-center">
-                    <Image
-                        src="/logo2.png" // Route of the image file
-                        height={50} // Desired size with correct aspect ratio
-                        width={200} // Desired size with correct aspect ratio
-                        alt="Logo"
-                    />
+                <NavbarBrand  className="text-center w-75 d-flex justify-content-start">
+                    <Link href="/">
+                        <a>
+                        <Image
+                            
+                            src="/logo2.png" // Route of the image file
+                            height={50} // Desired size with correct aspect ratio
+                            width={200} // Desired size with correct aspect ratio
+                            alt="Logo"
+                        />
+                        </a>
+                    </Link>
                 </NavbarBrand>
                 <NavbarToggler onClick={toggle} />
-                <Collapse isOpen={isOpen} navbar>
-                    <Nav className="mr-auto" navbar>
-                        <NavItem>
-                            <NavLink><Link href='/' >Inicio</Link></NavLink>
-                        </NavItem>
-                        {/* <NavItem>
-                            <NavLink><Link href='/sobre-mim' >Sobre Mim</Link></NavLink>
-                        </NavItem> */}
-                        <NavItem>
-                            <NavLink><Link href='/historia' >História</Link></NavLink>
-                        </NavItem>
-                        <NavItem>
-                            <NavLink><Link href='/noticias' >Notícias</Link></NavLink>
-                        </NavItem>
-                        {/* <NavItem>
-                            <NavLink><Link href='/redes-sociais' >Redes Sociais</Link></NavLink>
-                        </NavItem> */}
-                    </Nav>
-                    {/* <NavbarText>Simple Text</NavbarText> */}
+                <Collapse isOpen={isOpen} navbar >
+                        <Nav className="text-center d-flex justify-content-center" navbar>
+                            <NavItem className="my-2">
+                                <NavLink><Link href='/' >Inicio</Link></NavLink>
+                            </NavItem>
+                            {/* <NavItem>
+                                <NavLink><Link href='/sobre-mim' >Sobre Mim</Link></NavLink>
+                            </NavItem> */}
+                            <NavItem className="my-2">
+                                <NavLink><Link href='/historia' >História</Link></NavLink>
+                            </NavItem>
+                            <NavItem className="my-2">
+                                <NavLink><Link href='/noticias' >Notícias</Link></NavLink>
+                            </NavItem>
+                            {/* <NavItem>
+                                <NavLink><Link href='/redes-sociais' >Redes Sociais</Link></NavLink>
+                            </NavItem> */}
+                        </Nav>
+                        {/* <NavbarText>Simple Text</NavbarText> */}
                 </Collapse>
             </Navbar>
         </>
