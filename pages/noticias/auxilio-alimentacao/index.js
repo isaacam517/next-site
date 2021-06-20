@@ -17,7 +17,7 @@ export default function Noticias() {
             <Container>
                 <article className='text-center'>
                         <h2 className='display-4'>
-                            Servidores do município da Vitória de Sando Antão recebem o auxílio-alimentação
+                            Servidores do município Vitória de Santo Antão recebem o auxílio-alimentação
                         </h2>
                         <Image
                             src="/noticias/foto-da-camara.PNG" // Route of the image file
@@ -31,7 +31,7 @@ export default function Noticias() {
                                 O Prefeito Paulo Roberto Leite de Arruda, no uso das atribuições que lhes são conferidas por lei,
                                 sancionou a lei de Nº 4.466/2021 no dia 19 de março de 2021, na qual fica instituído o auxílio-alimentação,
                                 de caráter <strong>idenizatório</strong> em favor dos servidores da Câmara Municipal de Vitória de Santo Antão, 
-                                vale salientar que o auxílio-alimentação tornou-se de direito de alguns cargos, segue abaixo a lista: 
+                                vale salientar que o auxílio-alimentação tornou-se de direito de <strong>alguns cargos</strong>, segue abaixo a lista: 
                             </p>
                         </div>
                         <div className="d-flex justify-content-center">
