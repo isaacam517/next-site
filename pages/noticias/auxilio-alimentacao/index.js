@@ -12,6 +12,7 @@ export default function Noticias() {
                 <meta property="og:title" content="Servidores de Vitória - PE recebem R$ 682 de auxílio-alimentação" />
                 <meta name="description" content=" Auxílio teve início em março, confira os cargos que tem direito."></meta>
                 <meta property="og:image" content="/assets/foto-da-camara.PNG" />
+                <script data-ad-client="ca-pub-3808193959835271" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
             </Head>
             <Navigation />
             <Container>

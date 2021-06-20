@@ -10,11 +10,6 @@ import {
     Nav,
     NavItem,
     NavLink,
-    UncontrolledDropdown,
-    DropdownToggle,
-    DropdownMenu,
-    DropdownItem,
-    NavbarText
 } from 'reactstrap';
 
 export default function Navigation () {
@@ -29,7 +24,6 @@ export default function Navigation () {
                     <Link href="/">
                         <a>
                         <Image
-                            
                             src="/logo2.png" // Route of the image file
                             height={50} // Desired size with correct aspect ratio
                             width={200} // Desired size with correct aspect ratio
