@@ -15,7 +15,7 @@ export default function MainCards() {
                            <Card>
                                 <CardImg top width="100%" src="/noticias/foto-da-camara.PNG" alt="Foto da câmara Municipal" />
                                 <CardBody>
-                                <CardTitle className="text-dark" tag="h5">Servidores municipais recebem o auxílio-alimentação</CardTitle>
+                                <CardTitle className="text-dark" tag="h5">Servidores da Câmara Municipal recebem o auxílio-alimentação</CardTitle>
                                 <CardSubtitle tag="h6" className="mb-2 text-danger">R$ 682,00 (seiscentos e oitenta e dois reais)</CardSubtitle>
                                 <CardText className="text-secondary">O Prefeito aprovou e sancionou a lei 4.466/2021 que institui o auxílio-alimentação.</CardText>
                                 <div className="gap-2 d-grid">
