@@ -19,15 +19,12 @@ function Home() {
       </Head>
 
       <main>
-          <Navigation/>
-
-          <Header/>
-          <Carousel/>
-      
+        <Navigation/>
+        <Header/>
+        <Carousel/>
       </main>
       <div className='mt-3'> 
-      <Footer/>
-
+        <Footer/>
       </div>
     </>
   )
