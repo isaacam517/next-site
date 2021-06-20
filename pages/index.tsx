@@ -1,11 +1,9 @@
-import { InferGetStaticPropsType } from 'next'
 import Head from 'next/head'
-import Link from 'next/link'
-import { getPostList } from '../shared/util'
 import Header from '../components/header'
 import Navigation from '../components/navigation'
 import Carousel from '../components/carousel'
 import Footer from '../components/footer'
+import MainCards from '../components/mainCards'
 
 function Home() {
  
@@ -21,7 +19,9 @@ function Home() {
       <main>
         <Navigation/>
         <Header/>
-        <Carousel/>
+        {/* <Carousel/> */}
+        <h2 className='text-center display-2' >Ultimas Notícias</h2>
+        <MainCards />
       </main>
       <div className='mt-3'> 
         <Footer/>

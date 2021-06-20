@@ -1,5 +1,5 @@
 import Head from 'next/head'
-import { Container } from 'reactstrap';
+import MainCards from '../../components/mainCards';
 import Footer from '../../components/footer';
 
 import Navigation from "../../components/navigation";
@@ -14,11 +14,11 @@ export default function Noticias() {
             </Head>
             <article className='text-center'>
                 <Navigation />
-               <Container>
-                    <h2 className='my-4'>
-                        Notícias - Em Manutenção
+                    <h2 className='display-2'>
+                        Notícias
                     </h2>
-               </Container>
+                    <MainCards />
+
             </article>
             <Footer/>
         </>
