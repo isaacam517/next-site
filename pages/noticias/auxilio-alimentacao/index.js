@@ -35,12 +35,13 @@ export default function Noticias() {
                             </p>
                         </div>
                         <div className="d-flex justify-content-center">
-                            <ul class="list-group w-75">
-                                <li class="list-group-item">Chefe de Gabinete, símbolo CCG</li>
-                                <li class="list-group-item">Assessor Parlamentar, símbolo CC-1</li>
-                                <li class="list-group-item">Secretário Especial para Assuntos Legislativos, símbolo CC-2</li>
-                                <li class="list-group-item">Assessor de Gabinete, símbolo CC-3</li>
-                                <li class="list-group-item">Assesor Legislativo, símbolo CC-4</li>
+                            <ul className="list-group w-75">
+                                <li className="list-group-item">Chefe de Gabinete, símbolo CCG</li>
+                                <li className="list-group-item">Assessor Parlamentar, símbolo CC-1</li>
+                                <li className="list-group-item">Secretário Especial para Assuntos Legislativos, símbolo CC-2</li>
+                                <li className="list-group-item">Assessor de Gabinete, símbolo CC-3</li>
+                                <li className="list-group-item">Assesor Legislativo, símbolo CC-4</li>
+                                <li className="list-group-item">Secretário de Gabinete, símbolo CC-5 <a href="https://drive.google.com/file/d/1r_50CSIWEROnJJ-xCA1iPZpRcQg99TmT/view?usp=sharing" className="text-danger"> - Lei nº 4.475</a></li>
                             </ul>
                         </div>
                         <div className="my-3">
