@@ -1,5 +1,7 @@
 import Link from 'next/link'
 import React, { useState } from 'react';
+import Image from 'next/image'
+
 import {
     Collapse,
     Navbar,
@@ -24,8 +26,13 @@ export default function Navigation () {
         <>
             <Navbar color="dark" dark expand="md" className='px-2'>
                 <NavbarBrand href="/" className="text-center">
-                    <img className="imgLogo" width="8%" src="/logo3.png" alt="Foto da antiga cidade Santo Antão da Mata" />
-                    <span>VITORIANDO</span></NavbarBrand>
+                    <Image
+                        src="/logo2.png" // Route of the image file
+                        height={50} // Desired size with correct aspect ratio
+                        width={200} // Desired size with correct aspect ratio
+                        alt="Logo"
+                    />
+                </NavbarBrand>
                 <NavbarToggler onClick={toggle} />
                 <Collapse isOpen={isOpen} navbar>
                     <Nav className="mr-auto" navbar>
