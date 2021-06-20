@@ -11,7 +11,7 @@ export default function Noticias() {
                 <title>Vitoriando - Notícias e Informações</title>
                 <meta property="og:title" content="Servidores de Vitória - PE recebem R$ 682 de auxílio-alimentação" />
                 <meta name="description" content=" Auxílio teve início em março, confira os cargos que tem direito."></meta>
-                <meta property="og:image" content="/noticias/foto-da-camara.PNG" />
+                <meta property="og:image" content="/assets/foto-da-camara.PNG" />
             </Head>
             <Navigation />
             <Container>
