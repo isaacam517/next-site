@@ -11,7 +11,7 @@ export default function MainCards() {
             <article className='text-center'>
                <Container>
                    <Row className="d-flex justify-content-center">
-                       <Col xs={9} md={6} lg={4} className="mb-4">
+                       {/* <Col xs={9} md={6} lg={4} className="mb-4">
                            <Card>
                                 <CardImg top width="100%" src="/noticias/foto-da-camara.PNG" alt="Foto da câmara Municipal" />
                                 <CardBody>
@@ -25,8 +25,8 @@ export default function MainCards() {
                                 </div>
                                 </CardBody>
                             </Card>
-                       </Col>
-                       <Col xs={9} md={6} lg={4} className="mb-4">
+                       </Col> */}
+                       {/* <Col xs={9} md={6} lg={4} className="mb-4">
                            <Card>
                                 <CardImg top 
                                     height={220}
@@ -43,7 +43,7 @@ export default function MainCards() {
                                 </div>
                                 </CardBody>
                             </Card>
-                       </Col>
+                       </Col> */}
                    </Row>
                </Container>
             </article>

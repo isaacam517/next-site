@@ -16,7 +16,7 @@ export default function IncentivoNaSaude() {
             </Head>
             <Navigation />
             <Container>
-                <article className='text-center'>
+                {/* <article className='text-center'>
                     <h2 className='display-4'>
                         Incentivo financeiro para servidores da Secretaria de Saúde 
                     </h2>
@@ -62,7 +62,7 @@ export default function IncentivoNaSaude() {
                             Esta lei entrou em vigor a partir de sua publicação no dia 20 de maio de 2021, Para ter acesso a lei 4.484/2021 <strong><a className="text-warning" href="https://drive.google.com/file/d/1KMst24ek09a2G-96aB4ltXfasdT30AzI/view?usp=sharing">CLIQUE AQUI</a></strong> e visualize em pdf.
                         </p>
                     </div>
-                </article>
+                </article> */}
             </Container>
             <Footer/>
         </>
