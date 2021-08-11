@@ -9,14 +9,14 @@ export default function Noticias() {
         <>
             <Head>
                 <title>Vitoriando - Notícias e Informações</title>
-                <meta property="og:title" content="Servidores da Câmara Municipal de Vitória-PE recebem R$ 682 de auxílio-alimentação" />
+                {/* <meta property="og:title" content="Servidores da Câmara Municipal de Vitória-PE recebem R$ 682 de auxílio-alimentação" />
                 <meta name="description" content=" Auxílio teve início em março, confira os cargos que tem direito."></meta>
                 <meta property="og:image" content="/assets/foto-da-camara.PNG" />
-                <script data-ad-client="ca-pub-3808193959835271" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+                <script data-ad-client="ca-pub-3808193959835271" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script> */}
             </Head>
             <Navigation />
             <Container>
-                <article className='text-center'>
+                {/* <article className='text-center'>
                         <h2 className='display-4'>
                             Servidores da Câmara Municipal de Vitória de Santo Antão recebem o auxílio-alimentação
                         </h2>
@@ -53,7 +53,7 @@ export default function Noticias() {
                                 Para ter acesso a lei 4.466/2021 <strong><a className="text-warning" href="https://drive.google.com/file/d/1t2ZcA2mxgH6pjluWAylW7VZRCbsyYMwx/view?usp=sharing">CLIQUE AQUI</a></strong> e visualize em pdf.
                             </p>
                         </div>
-                </article>
+                </article> */}
             </Container>
             <Footer/>
         </>
