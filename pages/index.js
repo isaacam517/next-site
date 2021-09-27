@@ -1,3 +1,4 @@
+import Image from 'next/image'
 import Head from 'next/head'
 import Header from '../components/header'
 import Navigation from '../components/navigation'
@@ -19,12 +20,13 @@ function Home() {
 
         <Navigation/>
         <Header/>
-        <div className='my-2 text-center w-100'>
+        {/* <div className='my-2 text-center w-100'>
           <iframe src="https://www.youtube.com/embed/Ty4isRlrrbg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-        </div>
+        </div> */}
         {/* <Carousel/> */}
-        <h2 className='text-center display-2' >Ultimas Notícias</h2>
+        <h2 className='text-center display-2' >Fake News</h2>
         <MainCards />
+        
       <div className='mt-3'> 
         <Footer/>
       </div>

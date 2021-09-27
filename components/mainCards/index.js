@@ -1,5 +1,6 @@
 import React from 'react';
 import Link from 'next/link'
+import Image from 'next/image'
 import {
   Container, Row, Col, Card, Button, CardImg, CardTitle, CardText,
   CardSubtitle, CardBody
@@ -11,21 +12,26 @@ export default function MainCards() {
             <article className='text-center'>
                <Container>
                    <Row className="d-flex justify-content-center">
-                       {/* <Col xs={9} md={6} lg={4} className="mb-4">
+                       <Col xs={9} md={6} lg={4} className="mb-4">
                            <Card>
-                                <CardImg top width="100%" src="/noticias/foto-da-camara.PNG" alt="Foto da câmara Municipal" />
+                                <Image
+                                    src="/neilton.png" // Route of the image file
+                                    height={250} // Desired size with correct aspect ratio
+                                    width={100} // Desired size with correct aspect ratio
+                                    alt="Logo"
+                                />
                                 <CardBody>
-                                <CardTitle className="text-dark" tag="h5">Servidores da Câmara Municipal recebem o auxílio-alimentação</CardTitle>
-                                <CardSubtitle tag="h6" className="mb-2 text-danger">R$ 682,00 (seiscentos e oitenta e dois reais)</CardSubtitle>
-                                <CardText className="text-secondary">O Prefeito aprovou e sancionou a lei 4.466/2021 que institui o auxílio-alimentação.</CardText>
+                                <CardTitle className="text-dark" tag="h5">Todo Salário com PITÚ</CardTitle>
+                                <CardSubtitle tag="h6" className="mb-2 text-danger">Ele gastou R$ 3.682,00 (três mil seiscentos e oitenta e dois reais)</CardSubtitle>
+                                <CardText className="text-secondary">Testemunhas afirmam que ele saiu do banco direto pra fábrica da PITÚ .</CardText>
                                 <div className="gap-2 d-grid">
-                                    <Link href='/noticias/auxilio-alimentacao' >
+                                    <Link href='/noticias/pitu' >
                                         <a className="btn btn-primary btn-lg" type="button">Ler mais</a>
                                     </Link>
                                 </div>
                                 </CardBody>
                             </Card>
-                       </Col> */}
+                       </Col>
                        {/* <Col xs={9} md={6} lg={4} className="mb-4">
                            <Card>
                                 <CardImg top 
