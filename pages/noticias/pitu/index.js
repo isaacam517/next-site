@@ -9,32 +9,33 @@ export default function Noticias() {
         <>
             <Head>
                 <title>Vitoriando - Notícias e Informações</title>
-                {/* <meta property="og:title" content="Servidores da Câmara Municipal de Vitória-PE recebem R$ 682 de auxílio-alimentação" />
-                <meta name="description" content=" Auxílio teve início em março, confira os cargos que tem direito."></meta>
-                <meta property="og:image" content="/assets/foto-da-camara.PNG" />
-                <script data-ad-client="ca-pub-3808193959835271" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script> */}
+                <meta property="og:title" content="Alvirrubro gastou todo seu salário com PITÚ " />
+                <meta name="description" content=" No mesmo dia que recebeu, torrou com cana!"></meta>
+                <meta property="og:image" content="/neilton.PNG" />
+                {/* <script data-ad-client="ca-pub-3808193959835271" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script> */}
             </Head>
             <Navigation />
             <Container>
-                {/* <article className='text-center'>
+                <article className='text-center'>
                         <h2 className='display-4'>
-                            Servidores da Câmara Municipal de Vitória de Santo Antão recebem o auxílio-alimentação
+                            Alvirrubro saiu as disparadas para a Fábrica da Pitú com todo seu salário no bolso.
                         </h2>
                         <Image
-                            src="/noticias/foto-da-camara.PNG" // Route of the image file
+                            src="/neilton.PNG" // Route of the image file
                             height={300} // Desired size with correct aspect ratio
                             width={420} // Desired size with correct aspect ratio
                             alt="Foto da camara Municipal da cidade"
                         />
                         <div className="my-3 text-center">
                             <p>
-                                O Prefeito Paulo Roberto Leite de Arruda, no uso das atribuições que lhes são conferidas por lei,
-                                sancionou a lei de Nº 4.466/2021 no dia 19 de março de 2021, na qual fica instituído o auxílio-alimentação,
-                                de caráter <strong>idenizatório</strong> em favor dos servidores da Câmara Municipal de Vitória de Santo Antão, 
-                                vale salientar que o auxílio-alimentação tornou-se de direito de <strong>alguns cargos</strong>, segue abaixo a lista: 
+                                Na manhã do dia 27 de setembro de 2021 um jovem moreno charmoso, ao ser notificado que 
+                                seu salário caiu na conta, saiu correndo para a agencia sacar o valor, <strong>"Vou gastar todo de cana!" </strong>
+                                esbravejou o alvirrubro sedento de aguardente, ao chegar na fábrica exigiu que o proximo lote que iria sair seria pra ele
+                                 <strong> "Só saiu daqui com o carro cheio!"</strong> falava sorridente, depois de abastecer a mala com os engradados, foi 
+                                 até a CEAVI comprou uma saca de limão, em seguida saiu em direção da PE-45 sentido ESCADA-PE.
                             </p>
                         </div>
-                        <div className="d-flex justify-content-center">
+                        {/* <div className="d-flex justify-content-center">
                             <ul className="list-group w-75">
                                 <li className="list-group-item">Chefe de Gabinete, símbolo CCG</li>
                                 <li className="list-group-item">Assessor Parlamentar, símbolo CC-1</li>
@@ -52,8 +53,8 @@ export default function Noticias() {
                             <p>
                                 Para ter acesso a lei 4.466/2021 <strong><a className="text-warning" href="https://drive.google.com/file/d/1t2ZcA2mxgH6pjluWAylW7VZRCbsyYMwx/view?usp=sharing">CLIQUE AQUI</a></strong> e visualize em pdf.
                             </p>
-                        </div>
-                </article> */}
+                        </div> */}
+                </article>
             </Container>
             <Footer/>
         </>
