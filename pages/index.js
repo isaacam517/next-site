@@ -12,8 +12,8 @@ function Home() {
     <>
       <Head>
         <title>Vitoriando</title>
-        <meta property="og:title" content="Vitória de Santo Antão :: Curiosidades e Cia." />
-        <meta name="description" content="Curiosidades sobre tudo, notícias, entretenimento, resenhas e absurdos."></meta>
+        <meta property="og:title" content="Alvirrubro gastou todo seu salário com PITÚ " />
+        <meta name="description" content=" No mesmo dia que recebeu, torrou com cana!"></meta>
         <meta property="og:image" content="/img/capaLink.jpg" />
         {/* <script data-ad-client="ca-pub-3808193959835271" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script> */}
       </Head>

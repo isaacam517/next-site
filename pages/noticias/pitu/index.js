@@ -11,7 +11,7 @@ export default function Noticias() {
                 <title>Vitoriando - Notícias e Informações</title>
                 <meta property="og:title" content="Alvirrubro gastou todo seu salário com PITÚ " />
                 <meta name="description" content=" No mesmo dia que recebeu, torrou com cana!"></meta>
-                <meta property="og:image" content="/img/neilton.jpg" />
+                <meta property="og:image" content="/img/capaLink.jpg" />
                 {/* <script data-ad-client="ca-pub-3808193959835271" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script> */}
             </Head>
             <Navigation />
