@@ -23,7 +23,7 @@ export default function MainCards() {
                                 <CardSubtitle tag="h6" className="mb-2 text-danger">Ele gastou R$ 3.682,00 (três mil seiscentos e oitenta e dois reais)</CardSubtitle>
                                 <CardText className="text-secondary">Testemunhas afirmam que ele saiu do banco direto pra fábrica da PITÚ .</CardText>
                                 <div className="gap-2 d-grid">
-                                    <Link href='/noticias/auxilio-alimentacao' >
+                                    <Link href='/noticias/pitu' >
                                         <a className="btn btn-primary btn-lg" type="button">Ler mais</a>
                                     </Link>
                                 </div>
