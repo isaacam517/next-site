@@ -12,7 +12,7 @@ export default function MainCards() {
                <Container>
                    <Row className="d-flex justify-content-center">
                        <Col xs={9} md={6} lg={4} className="mb-4">
-                           <Card>
+                           {/* <Card>
                                 <CardImg top 
                                     height={220}
                                     width="100%" 
@@ -28,7 +28,7 @@ export default function MainCards() {
                                     </Link>
                                 </div>
                                 </CardBody>
-                            </Card>
+                            </Card> */}
                        </Col>
                        {/* <Col xs={9} md={6} lg={4} className="mb-4">
                            <Card>
