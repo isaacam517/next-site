@@ -12,9 +12,9 @@ function Home() {
     <>
       <Head>
         <title>Vitoriando</title>
-        <meta property="og:title" content="Alvirrubro gastou todo seu salário com PITÚ " />
+        {/* <meta property="og:title" content="Alvirrubro gastou todo seu salário com PITÚ " />
         <meta name="description" content=" No mesmo dia que recebeu, torrou com cana!"></meta>
-        <meta property="og:image" content="/img/capaLink.jpg" />
+        <meta property="og:image" content="/img/capaLink.jpg" /> */}
         {/* <script data-ad-client="ca-pub-3808193959835271" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script> */}
       </Head>
 
@@ -24,7 +24,7 @@ function Home() {
           <iframe src="https://www.youtube.com/embed/Ty4isRlrrbg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </div> */}
         {/* <Carousel/> */}
-        <h2 className='text-center display-2' >Fake News</h2>
+        {/* <h2 className='text-center display-2' >Fake News</h2> */}
         <MainCards />
         
       <div className='mt-3'> 

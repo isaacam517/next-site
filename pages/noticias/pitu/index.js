@@ -8,16 +8,16 @@ export default function Noticias() {
     return (
         <>
             <Head>
-                <title>Vitoriando - Notícias e Informações</title>
+                {/* <title>Vitoriando - Notícias e Informações</title>
                 <meta property="og:title" content="Alvirrubro gastou todo seu salário com PITÚ " />
                 <meta name="description" content=" No mesmo dia que recebeu, torrou com cana!"></meta>
-                <meta property="og:image" content="/img/capaLink.jpg" />
+                <meta property="og:image" content="/img/capaLink.jpg" /> */}
                 {/* <script data-ad-client="ca-pub-3808193959835271" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script> */}
             </Head>
             <Navigation />
             <Container>
                 <article className='text-center'>
-                        <h2 className='display-4'>
+                        {/* <h2 className='display-4'>
                             Alvirrubro saiu as disparadas para a Fábrica da Pitú com todo seu salário no bolso.
                         </h2>
                         <Image
@@ -34,7 +34,7 @@ export default function Noticias() {
                                  <strong> "Só saiu daqui com o carro cheio!"</strong> falava sorridente, depois de abastecer a mala com os engradados, foi 
                                  até a CEAVI comprou uma saca de limão, em seguida saiu em direção da PE-45 sentido ESCADA-PE.
                             </p>
-                        </div>
+                        </div> */}
                         {/* <div className="d-flex justify-content-center">
                             <ul className="list-group w-75">
                                 <li className="list-group-item">Chefe de Gabinete, símbolo CCG</li>
