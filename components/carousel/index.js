@@ -11,31 +11,31 @@ import {
 const items = [
   {
     id: 1,
-    src: '/imgHistoria/img-shopping.png',
+    src: '/imgHistoria/img-1.jpg',
     altText: 'Slide 1',
     caption: 'Slide 1'
   },
   {
     id: 2,
-    src: '/imgHistoria/img-index-2.jpg',
+    src: '/imgHistoria/img-4.jpg',
     altText: 'Slide 1',
     caption: 'Slide 1'
   },
    {
     id: 3,
-    src: '/imgHistoria/img-index-3.jpg',
+    src: '/imgHistoria/img-6.jpg',
     altText: 'Slide 1',
     caption: 'Slide 1'
   },
    {
     id: 4,
-    src: '/imgHistoria/img-index-4.jpg',
+    src: '/imgHistoria/img-7.jpg',
     altText: 'Slide 1',
     caption: 'Slide 1'
   },
    {
     id: 5,
-    src: '/imgHistoria/img-index-5.jpg',
+    src: '/imgHistoria/img-5.webp',
     altText: 'Slide 1',
     caption: 'Slide 1'
   },
@@ -74,7 +74,9 @@ const Example = (props) => {
         <img 
         src={item.src} 
         alt={item.altText}
-        width='100%' />
+        width='100%' 
+          
+        />
             {/* <CarouselCaption className="text-danger" captionText={item.caption} captionHeader={item.caption}/> */}
         </CarouselItem>
     );
