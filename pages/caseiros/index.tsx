@@ -77,16 +77,16 @@ export default function Noticias() {
                 </Card>
                 <h2>BOLOS CASEIROS</h2>
                 <h5>
-                  Bolo de laranja .................................. R$22,00
+                  Bolo de laranja .................... R$22,00
                 </h5>
                 <h5>
-                  Bolo de limão .................................... R$22,00
+                  Bolo de limão....................... R$22,00
                 </h5>
-                <h5>Bolo de chocolate ............................ R$22,00</h5>
+                <h5>Bolo de chocolate ............... R$22,00</h5>
                 <h5>
-                  Bolo de Yorgut .................................. R$22,00
+                  Bolo de Yorgut ..................... R$22,00
                 </h5>
-                <h5>COBERTURA ADICIONAL .................. R$8,00</h5>
+                <h5>COBERTURA ADICIONAL ...... R$8,00</h5>
 
                 <Card className="div-card my-4">
                   <Image
@@ -136,7 +136,7 @@ export default function Noticias() {
             </Row>
           </Container>
           <div className="div-contato">
-            <a href="https://wa.me/5581995073317" target="_blank">
+            <a href="https://wa.me/5511969567912" target="_blank">
               <Image
                 src="/imgHistoria/zap.png" // Route of the image file
                 height={100} // Desired size with correct aspect ratio

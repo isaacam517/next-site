@@ -75,22 +75,22 @@ const Historia = () => (
             </Card>
             <h2>BOLOS CONFEITADOS</h2>
 
-            <h5>Bolo sensação ................................... R$65,00</h5>
-            <h5>Bolo de abacaxí com creme belga R$65,00</h5>
-            <h5>Bolo mousse de morango .............. R$65,00</h5>
-            <h5>Bolo mousse de limão ..................... R$65,00</h5>
-            <h5>Bolo mousse de maracuja .............. R$65,00</h5>
-            <h5>Bolo de morango c/ creme belga . R$65,00</h5>
-            <h5>Bolo brigadeiro ................................. R$70,00</h5>
-            <h5>Bolo de mousse de chocolate ........ R$70,00</h5>
-            <h5>Bolo brigadeiro branco ................... R$70,00</h5>
-            <h5>Bolo trufado de chocolate .............. R$70,00</h5>
-            <h5>Bolo de leite ninho ........................... R$75,00</h5>
-            <h5>Bolo de leite condensado ............... R$75,00</h5>
-            <h5>Bolo de mousse de choc. branco .. R$75,00</h5>
-            <h5>Bolo de prestígio ............................... R$75,00</h5>
-            <h5>Bolo floresta branca c/ morango .. R$75,00</h5>
-            <h5>Bolo trufado de limão ...................... R$75,00</h5>
+            <h5>Bolo sensação ......................... R$65,00</h5>
+            <h5>Bolo abacaxí c/ creme belga R$65,00</h5>
+            <h5>Bolo mousse de morango ... R$65,00</h5>
+            <h5>Bolo mousse de limão .......... R$65,00</h5>
+            <h5>Bolo mousse de maracuja ... R$65,00</h5>
+            <h5>Bolo morango c creme belga R$65,00</h5>
+            <h5>Bolo brigadeiro ...................... R$70,00</h5>
+            <h5>Bolo d mousse de chocolate R$70,00</h5>
+            <h5>Bolo brigadeiro branco ......... R$70,00</h5>
+            <h5>Bolo trufado de chocolate .... R$70,00</h5>
+            <h5>Bolo de leite ninho ................. R$75,00</h5>
+            <h5>Bolo de leite condensado ..... R$75,00</h5>
+            <h5>Bolo d mousse d choc branco R$75,00</h5>
+            <h5>Bolo de prestígio ....................... R$75,00</h5>
+            <h5>Bolo floresta branca c morango R$75,00</h5>
+            <h5>Bolo trufado de limão ................ R$75,00</h5>
             <Card className="div-card my-4">
               <Image
                 src="/imgHistoria/img-7.jpg" // Route of the image file
@@ -139,7 +139,7 @@ const Historia = () => (
         </Row>
       </Container>
       <div className="div-contato">
-        <a href="https://wa.me/5581995073317" target="_blank">
+        <a href="https://wa.me/5511969567912" target="_blank">
           <Image
             src="/imgHistoria/zap.png" // Route of the image file
             height={100} // Desired size with correct aspect ratio

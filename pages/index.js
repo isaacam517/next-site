@@ -37,7 +37,7 @@ function Home() {
       <Carousel />
       <h2 className="text-center display-2">FEITO COM AMOR &#128151;</h2>
       <div className="div-contato text-center">
-        <a href="https://wa.me/5581995073317" target="_blank">
+        <a href="https://wa.me/5511969567912" target="_blank">
           <Image
             src="/imgHistoria/zap.png" // Route of the image file
             height={100} // Desired size with correct aspect ratio
