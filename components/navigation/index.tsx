@@ -23,12 +23,13 @@ export default function Navigation() {
         <NavbarBrand className="text-center w-75 d-flex justify-content-start">
           <Link href="/">
             <a>
-              <Image
+              <h2>Polyana's Dolci</h2>
+              {/* <Image
                 src="/logo1.png" // Route of the image file
                 height={50} // Desired size with correct aspect ratio
                 width={200} // Desired size with correct aspect ratio
                 alt="Logo"
-              />
+              /> */}
             </a>
           </Link>
         </NavbarBrand>
