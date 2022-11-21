@@ -24,7 +24,7 @@ export default function Navigation() {
           <Link href="/">
             <a>
               <Image
-                src="/logo4.jpg" // Route of the image file
+                src="/logo1.png" // Route of the image file
                 height={50} // Desired size with correct aspect ratio
                 width={200} // Desired size with correct aspect ratio
                 alt="Logo"
